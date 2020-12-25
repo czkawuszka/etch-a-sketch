@@ -31,7 +31,6 @@ while True:
 
     p_input=str(input('Command: '))
     if(p_input=='up' or p_input=='u'):
-        print('up')
         if(posy==0):
             print("You're already at the top end of the space")
         else:
@@ -46,7 +45,6 @@ while True:
             else:
                 temp2=temp
     elif(p_input=='down' or p_input=='d'):
-        print('down')
         if(posy==19):
             print("You're already at the bottom end of the space")
         else:
@@ -61,7 +59,6 @@ while True:
             else:
                 temp2=temp
     elif(p_input=='left' or p_input=='l'):
-        print('left')
         if(posx==0):
             print("You're already at the left end of the space")
         else:
@@ -76,7 +73,6 @@ while True:
             else:
                 temp2=temp
     elif(p_input=='right' or p_input=='r'):
-        print('right')
         if(posx==49):
             print("You're already at the right end of the space")
         else:
