@@ -5,7 +5,6 @@ print(" ")
 print("Creating table...")
 print(" ")
 
-print("a")
 
 len=50
 
